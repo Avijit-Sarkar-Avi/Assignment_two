@@ -1,0 +1,115 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* For Header  */
+
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 50px 140px;
+    border-radius: 20px;
+}
+
+.header-text {
+    width: 531px;
+    height: 424px;
+    padding: 5% 0 0 5%;
+}
+
+.header-image {
+    padding: 2%;
+}
+
+.header-image img {
+    width: 400px;
+    height: 500px;
+}
+
+.header-text h1 {
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+.link {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 14px 16px;
+}
+
+/* start main  */
+
+main {
+    display: flex;
+    margin: 50px 140px;
+
+}
+
+aside {
+    width: 252px;
+    height: 252px;
+    border: 1px solid black;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+aside a {
+    margin-top: 10px;
+    text-decoration: none;
+    width: 174px;
+    height: 30px;
+    padding: 14px 16px;
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+}
+
+section {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.match-link {
+    padding: 5px;
+    box-shadow: 10px 10px 10px whitesmoke;
+}
+
+.match-flag {
+    display: flex;
+}
+
+/* Footer Part */
+
+hr {
+    margin: 50px 140px;
+}
+
+footer {
+    height: 250px;
+    padding: 50px 20px;
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+}
+
+footer h2 {
+    font-size: 30px;
+}
+
+.last-part {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-row-gap: 10px;
+}
